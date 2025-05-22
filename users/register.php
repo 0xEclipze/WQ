@@ -37,9 +37,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 ?>
 
 <?php include __DIR__ . '/../includes/header.php'; ?>
-<link rel="stylesheet" href="../assets/css/auth.css">
-
-
 <div class="auth-box">
     <h2>Register</h2>
     <form method="POST" action="">
@@ -50,5 +47,4 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     </form>
     <p style="color: red;"><?= $msg ?? '' ?></p>
 </div>
-
 <?php include __DIR__ . '/../includes/footer.php'; ?>

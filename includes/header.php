@@ -9,7 +9,7 @@ if (!isset($base)) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daily Word Booster</title>
+    <title>WordQuest</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
@@ -17,7 +17,7 @@ if (!isset($base)) {
 <body>
 <header>
         <div class="logo-container">
-            <img src="assets/images/wordquestlogo.png" alt="Daily Word Booster Logo" class="logo">
+            <img src="assets/images/wordquestlogo.png" alt="WordQuest Logo" class="logo">
             <h1>WordQuest</h1>
         </div>
         <nav>
