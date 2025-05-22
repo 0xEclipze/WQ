@@ -1,0 +1,53 @@
+.auth-box {
+  max-width: 450px;
+  margin: 140px auto 40px; /* Add top margin to push it below the nav */
+  background-color: white;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: var(--card-shadow);
+  text-align: center;
+}
+
+.auth-box h2 {
+  margin-bottom: 1.5rem;
+  color: var(--primary-color);
+  font-family: "Montserrat", sans-serif;
+}
+
+.auth-box input[type="text"],
+.auth-box input[type="email"],
+.auth-box input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.auth-box button {
+  width: 100%;
+  background-color: blue;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.auth-box button:hover {
+  background-color: #1570cd;
+}
+
+.auth-box p {
+  font-size: 14px;
+  margin-top: 1rem;
+}
+
+.auth-box a {
+  color: var(--primary-color);
+  font-weight: bold;
+}
